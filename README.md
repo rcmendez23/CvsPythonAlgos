@@ -12,9 +12,13 @@ Python: modify _filename_ in each .py file to test the proper data size.
 C: modify __NUMEL__ and _filename_ in each .c file to test the proper data size.
 
 data1000.txt = 1,000 elements
+
 data10000.txt = 10,000 elements
+
 data100000.txt = 100,000 elements
+
 data1000000.txt = 1,000,000 elements
+
 
 Most Python scripts are only compatible with Python3.
 
