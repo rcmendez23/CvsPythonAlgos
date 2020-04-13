@@ -2,8 +2,8 @@
 #include <stdio.h> 
 #include <stdlib.h>
 #include <time.h>
-#define NUMEL 100000
-
+#define NUMEL 1000
+char* filename = "data1000.txt";
 /* Function to sort an array using insertion sort*/
 void insertionSort(int arr[], int n) 
 { 
@@ -34,7 +34,7 @@ void printArray(int arr[], int n)
 
 void readfile(int A[], int size)
 {
-	FILE *fp = fopen("data.txt","r");
+	FILE *fp = fopen(filename,"r");
 	if (fp == NULL)
 		return;
 	for (int i = 0; i < size; i++)

@@ -2,8 +2,8 @@
 #include<stdlib.h> 
 #include<stdio.h> 
 #include<time.h>
-#define NUMEL 100000
-
+#define NUMEL 1000
+char *filename = "data1000.txt";
 // Merges two subarrays of arr[]. 
 // First subarray is arr[l..m] 
 // Second subarray is arr[m+1..r] 
@@ -90,7 +90,7 @@ void printArray(int A[], int size)
 
 void readfile(int A[], int size)
 {
-	FILE *fp = fopen("data.txt","r");
+	FILE *fp = fopen(filename,"r");
 	if (fp == NULL)
 		return;
 	for (int i = 0; i < size; i++)
