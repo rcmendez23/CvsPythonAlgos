@@ -7,4 +7,5 @@ C code was sourced from geeksforgeeks.org.
 
 # C Compilation and Execution (from shell)
 gcc [filename.c] -o [executablename]
+
 ./executablename
